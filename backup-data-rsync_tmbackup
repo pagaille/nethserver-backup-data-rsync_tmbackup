@@ -90,7 +90,7 @@ $rsyncflags .= "--stats ";
 $rsyncflags .= "--human-readable ";
 $rsyncflags .= "--files-from=$tmpInclude ";
 $rsyncflags .= "--exclude-from=$tmpExclude ";
-# $rsyncflags .= " --one-file-system "; # commment if your filesystem includes bind-mounted drives
+$rsyncflags .= " --one-file-system "; # commment if your filesystem includes bind-mounted drives
 # $rsyncflags .= "--dry-run "; # to be used for tests
 
 $opts .= " --rsync-set-flags \"$rsyncflags\"";

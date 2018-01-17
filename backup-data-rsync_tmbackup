@@ -4,7 +4,7 @@
 # Copyright (C) 2017 Matthieu Gaillet
 # 
 # This script is part of NethServer. It is heavily inspired by the 
-# backup-data-rsync-duplicity script
+# backup-data-duplicity script
 # 
 # NethServer is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
